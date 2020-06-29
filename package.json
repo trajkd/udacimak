@@ -1,5 +1,5 @@
 {
-  "name": "udacimak",
+  "name": "udacimak-project",
   "version": "1.6.6",
   "description": "Udacity Nanodegree/course downloader and renderer",
   "main": "index.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/udacimak/udacimak.git"
+    "url": "git+https://github.com/trajkd/udacimak.git"
   },
   "keywords": [
     "udacity",
@@ -41,7 +41,7 @@
   "homepage": "https://github.com/udacimak/udacimak#readme",
   "preferGlobal": true,
   "bin": {
-    "udacimak": "./lib/index.js"
+    "udacimak": "lib/index.js"
   },
   "engines": {
     "node": ">=8.0.0"
