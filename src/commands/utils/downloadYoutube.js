@@ -90,7 +90,7 @@ function downloadYoutubeHelper(videoId, outputPath, prefix, title, format) {
   return new Promise(async (resolve, reject) => {
     const filenameBase = `${prefix}. ${filenamify(title || '')}-${videoId}`;
     const filenameYoutube = `${filenameBase}.mp4`;
-    const urlYoutube = `https://www.youtube.com/watch?v=${videoId}`;
+    const urlYoutube = `--no-check-certificate "https://www.youtube.com/watch?v=${videoId}"`;
     const tempPath = path.join(outputPath, `.${filenameYoutube}`);
     const savePath = path.join(outputPath, filenameYoutube); `${outputPath}/${filenameYoutube}`;
     let timeGap;
