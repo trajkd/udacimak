@@ -41,7 +41,7 @@
   "homepage": "https://github.com/udacimak/udacimak#readme",
   "preferGlobal": true,
   "bin": {
-    "udacimak": "lib/index.js"
+    "udacimak": "../../lib/index.js"
   },
   "engines": {
     "node": ">=8.0.0"
